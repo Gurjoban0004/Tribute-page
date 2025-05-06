@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+video {
+  position: fixed;
+  width: 99%;
+  height: 99%;
+  object-fit: cover;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.gallery-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.2);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="Screen Recording 2024-11-06 at 12.38.40 PM.mov" type="video/mp4">
+    </video>
+
+    <div class="container text-center">
+        
+        <div class="gallery-container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
+            <div class="col">
+                <a href="https://youtu.be/n_FCrCQ6-bA?si=HxHERYRgra5C5LDc">
+                    <img src="https://i.ytimg.com/vi/g5FpOwaFKeM/maxresdefault.jpg" alt="Video Thumbnail 1">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://youtu.be/7DPcBQ1sjX4?si=BTgUzQ1o-Iln7LnM">
+                    <img src="https://i.ytimg.com/vi/7DPcBQ1sjX4/maxresdefault.jpg" alt="Image 2">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://youtu.be/1mzP0yIdHuY?si=7XGBR1zg3nqEUUK0">
+                    <img src="https://i.ytimg.com/vi/sQi-cXcSLVA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBUoyDKAQu9-DaB8Mt-oW_lHNJ5-A" alt="Image 3">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://youtu.be/24yzfJB_5AM?si=5sHAVHERUo6ShU-o">
+                    <img src="https://i.ytimg.com/vi/E-TWCH_O1cw/maxresdefault.jpg" alt="Image 4">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://youtu.be/tZt3Tp0MFZk?si=sYW10ZmopauZGF82">
+                    <img src="https://i.ytimg.com/vi/tk5FHq05e2Y/maxresdefault.jpg" alt="Image 5">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://youtu.be/jmigBo42low?si=qQeQc_4uYSSeXlrp">
+                    <img src="https://i.ytimg.com/vi/jmigBo42low/maxresdefault.jpg" alt="Image 6">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
